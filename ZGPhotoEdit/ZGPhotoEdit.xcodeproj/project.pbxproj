@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46A55471FDA4A5C007A7503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A55461FDA4A5C007A7503 /* AppDelegate.m */; };
+		B46A554F1FDA4A5C007A7503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46A554E1FDA4A5C007A7503 /* Assets.xcassets */; };
+		B46A55521FDA4A5C007A7503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46A55501FDA4A5C007A7503 /* LaunchScreen.storyboard */; };
+		B46A55551FDA4A5C007A7503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A55541FDA4A5C007A7503 /* main.m */; };
+		B46A555F1FDA4A5C007A7503 /* ZGPhotoEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A555E1FDA4A5C007A7503 /* ZGPhotoEditTests.m */; };
+		B46A556A1FDA4A5C007A7503 /* ZGPhotoEditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A55691FDA4A5C007A7503 /* ZGPhotoEditUITests.m */; };
+		B46A55801FDA4CE9007A7503 /* ZGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A557F1FDA4CE9007A7503 /* ZGViewController.m */; };
+		B46A558B1FDA4FFA007A7503 /* ZGPhotoEditingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A558A1FDA4FFA007A7503 /* ZGPhotoEditingTool.m */; };
+		B46A558E1FDA5EAD007A7503 /* ZGPhotoEditingController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A558D1FDA5EAD007A7503 /* ZGPhotoEditingController.m */; };
+		B46A55971FDA7983007A7503 /* ZGPhotoEditCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A55961FDA7983007A7503 /* ZGPhotoEditCollectionView.m */; };
+		B46A55A61FDA9EE7007A7503 /* ZGPhotoEditModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A55A51FDA9EE7007A7503 /* ZGPhotoEditModel.m */; };
+		B46A55B31FDE6EC6007A7503 /* ZGPhotoEditNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A55B21FDE6EC6007A7503 /* ZGPhotoEditNavBar.m */; };
+		B46A55B61FDE774E007A7503 /* ZGPhotoEditDrawStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A55B51FDE774E007A7503 /* ZGPhotoEditDrawStroke.m */; };
+		B46A56621FE0D44B007A7503 /* ZGCropCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A565A1FE0D44B007A7503 /* ZGCropCornerView.m */; };
+		B46A56631FE0D44B007A7503 /* ZGCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A565D1FE0D44B007A7503 /* ZGCropView.m */; };
+		B46A56641FE0D44B007A7503 /* ZGPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A565F1FE0D44B007A7503 /* ZGPhotoScrollView.m */; };
+		B46A56651FE0D44B007A7503 /* ZGPhotoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A56601FE0D44B007A7503 /* ZGPhotoContentView.m */; };
+		B46A56661FE0D44B007A7503 /* ZGPhotoEditCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A56611FE0D44B007A7503 /* ZGPhotoEditCropView.m */; };
+		B46A566D1FE0DA50007A7503 /* ZGPhotoEditImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A56691FE0DA50007A7503 /* ZGPhotoEditImageView.m */; };
+		B46A566E1FE0DA50007A7503 /* ZGPhotoEditDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46A566C1FE0DA50007A7503 /* ZGPhotoEditDrawView.m */; };
+		B47D42661FE8C901005E3743 /* ZGPhotoEditColorBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B47D42651FE8C901005E3743 /* ZGPhotoEditColorBar.m */; };
+		B47D426A1FE8C958005E3743 /* ZGPhotoEditColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B47D42691FE8C958005E3743 /* ZGPhotoEditColorCell.m */; };
+		B47D426D1FE8CA21005E3743 /* ZGPhotoEditInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = B47D426C1FE8CA21005E3743 /* ZGPhotoEditInputView.m */; };
+		B47D42721FE8F1FD005E3743 /* ZGPhotoEditMosaicView.m in Sources */ = {isa = PBXBuildFile; fileRef = B47D42711FE8F1FD005E3743 /* ZGPhotoEditMosaicView.m */; };
+		B47D42751FE901DB005E3743 /* ZGPhotoEditMosaicBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B47D42741FE901DB005E3743 /* ZGPhotoEditMosaicBar.m */; };
+		B47D42781FE90235005E3743 /* ZGPhotoEditFilterBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B47D42771FE90235005E3743 /* ZGPhotoEditFilterBar.m */; };
+		B47D427B1FE9027C005E3743 /* ZGPhotoEditFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B47D427A1FE9027C005E3743 /* ZGPhotoEditFilterCell.m */; };
+		B4BC2A5F1FE2708F00D421ED /* ZGPhotoEditAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BC2A5E1FE2708F00D421ED /* ZGPhotoEditAddView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B46A555B1FDA4A5C007A7503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46A553A1FDA4A5C007A7503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46A55411FDA4A5C007A7503;
+			remoteInfo = ZGPhotoEdit;
+		};
+		B46A55661FDA4A5C007A7503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46A553A1FDA4A5C007A7503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46A55411FDA4A5C007A7503;
+			remoteInfo = ZGPhotoEdit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46A55421FDA4A5C007A7503 /* ZGPhotoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGPhotoEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46A55451FDA4A5C007A7503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B46A55461FDA4A5C007A7503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B46A554E1FDA4A5C007A7503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B46A55511FDA4A5C007A7503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B46A55531FDA4A5C007A7503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46A55541FDA4A5C007A7503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B46A555A1FDA4A5C007A7503 /* ZGPhotoEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGPhotoEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46A555E1FDA4A5C007A7503 /* ZGPhotoEditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditTests.m; sourceTree = "<group>"; };
+		B46A55601FDA4A5C007A7503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46A55651FDA4A5C007A7503 /* ZGPhotoEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGPhotoEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46A55691FDA4A5C007A7503 /* ZGPhotoEditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditUITests.m; sourceTree = "<group>"; };
+		B46A556B1FDA4A5C007A7503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46A557E1FDA4CE9007A7503 /* ZGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGViewController.h; sourceTree = "<group>"; };
+		B46A557F1FDA4CE9007A7503 /* ZGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGViewController.m; sourceTree = "<group>"; };
+		B46A55891FDA4FFA007A7503 /* ZGPhotoEditingTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditingTool.h; sourceTree = "<group>"; };
+		B46A558A1FDA4FFA007A7503 /* ZGPhotoEditingTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditingTool.m; sourceTree = "<group>"; };
+		B46A558C1FDA5EAD007A7503 /* ZGPhotoEditingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditingController.h; sourceTree = "<group>"; };
+		B46A558D1FDA5EAD007A7503 /* ZGPhotoEditingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditingController.m; sourceTree = "<group>"; };
+		B46A55951FDA7983007A7503 /* ZGPhotoEditCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditCollectionView.h; sourceTree = "<group>"; };
+		B46A55961FDA7983007A7503 /* ZGPhotoEditCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditCollectionView.m; sourceTree = "<group>"; };
+		B46A55A41FDA9EE7007A7503 /* ZGPhotoEditModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditModel.h; sourceTree = "<group>"; };
+		B46A55A51FDA9EE7007A7503 /* ZGPhotoEditModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditModel.m; sourceTree = "<group>"; };
+		B46A55B01FDE6974007A7503 /* ZGPhotoEditHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditHeader.h; sourceTree = "<group>"; };
+		B46A55B11FDE6EC6007A7503 /* ZGPhotoEditNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditNavBar.h; sourceTree = "<group>"; };
+		B46A55B21FDE6EC6007A7503 /* ZGPhotoEditNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditNavBar.m; sourceTree = "<group>"; };
+		B46A55B41FDE774E007A7503 /* ZGPhotoEditDrawStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditDrawStroke.h; sourceTree = "<group>"; };
+		B46A55B51FDE774E007A7503 /* ZGPhotoEditDrawStroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditDrawStroke.m; sourceTree = "<group>"; };
+		B46A56581FE0D44B007A7503 /* ZGCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGCropView.h; sourceTree = "<group>"; };
+		B46A56591FE0D44B007A7503 /* ZGPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPhotoScrollView.h; sourceTree = "<group>"; };
+		B46A565A1FE0D44B007A7503 /* ZGCropCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGCropCornerView.m; sourceTree = "<group>"; };
+		B46A565B1FE0D44B007A7503 /* ZGPhotoEditCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditCropView.h; sourceTree = "<group>"; };
+		B46A565C1FE0D44B007A7503 /* ZGPhotoContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPhotoContentView.h; sourceTree = "<group>"; };
+		B46A565D1FE0D44B007A7503 /* ZGCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGCropView.m; sourceTree = "<group>"; };
+		B46A565E1FE0D44B007A7503 /* ZGCropCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGCropCornerView.h; sourceTree = "<group>"; };
+		B46A565F1FE0D44B007A7503 /* ZGPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoScrollView.m; sourceTree = "<group>"; };
+		B46A56601FE0D44B007A7503 /* ZGPhotoContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoContentView.m; sourceTree = "<group>"; };
+		B46A56611FE0D44B007A7503 /* ZGPhotoEditCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditCropView.m; sourceTree = "<group>"; };
+		B46A56681FE0DA50007A7503 /* ZGPhotoEditImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditImageView.h; sourceTree = "<group>"; };
+		B46A56691FE0DA50007A7503 /* ZGPhotoEditImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditImageView.m; sourceTree = "<group>"; };
+		B46A566B1FE0DA50007A7503 /* ZGPhotoEditDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditDrawView.h; sourceTree = "<group>"; };
+		B46A566C1FE0DA50007A7503 /* ZGPhotoEditDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditDrawView.m; sourceTree = "<group>"; };
+		B47D42641FE8C901005E3743 /* ZGPhotoEditColorBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditColorBar.h; sourceTree = "<group>"; };
+		B47D42651FE8C901005E3743 /* ZGPhotoEditColorBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditColorBar.m; sourceTree = "<group>"; };
+		B47D42681FE8C958005E3743 /* ZGPhotoEditColorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditColorCell.h; sourceTree = "<group>"; };
+		B47D42691FE8C958005E3743 /* ZGPhotoEditColorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditColorCell.m; sourceTree = "<group>"; };
+		B47D426B1FE8CA21005E3743 /* ZGPhotoEditInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditInputView.h; sourceTree = "<group>"; };
+		B47D426C1FE8CA21005E3743 /* ZGPhotoEditInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditInputView.m; sourceTree = "<group>"; };
+		B47D42701FE8F1FD005E3743 /* ZGPhotoEditMosaicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditMosaicView.h; sourceTree = "<group>"; };
+		B47D42711FE8F1FD005E3743 /* ZGPhotoEditMosaicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditMosaicView.m; sourceTree = "<group>"; };
+		B47D42731FE901DB005E3743 /* ZGPhotoEditMosaicBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditMosaicBar.h; sourceTree = "<group>"; };
+		B47D42741FE901DB005E3743 /* ZGPhotoEditMosaicBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditMosaicBar.m; sourceTree = "<group>"; };
+		B47D42761FE90235005E3743 /* ZGPhotoEditFilterBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditFilterBar.h; sourceTree = "<group>"; };
+		B47D42771FE90235005E3743 /* ZGPhotoEditFilterBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditFilterBar.m; sourceTree = "<group>"; };
+		B47D42791FE9027C005E3743 /* ZGPhotoEditFilterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditFilterCell.h; sourceTree = "<group>"; };
+		B47D427A1FE9027C005E3743 /* ZGPhotoEditFilterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditFilterCell.m; sourceTree = "<group>"; };
+		B4BC2A5D1FE2708F00D421ED /* ZGPhotoEditAddView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGPhotoEditAddView.h; sourceTree = "<group>"; };
+		B4BC2A5E1FE2708F00D421ED /* ZGPhotoEditAddView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPhotoEditAddView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46A553F1FDA4A5C007A7503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46A55571FDA4A5C007A7503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46A55621FDA4A5C007A7503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46A55391FDA4A5C007A7503 = {
+			isa = PBXGroup;
+			children = (
+				B46A55441FDA4A5C007A7503 /* ZGPhotoEdit */,
+				B46A555D1FDA4A5C007A7503 /* ZGPhotoEditTests */,
+				B46A55681FDA4A5C007A7503 /* ZGPhotoEditUITests */,
+				B46A55431FDA4A5C007A7503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B46A55431FDA4A5C007A7503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46A55421FDA4A5C007A7503 /* ZGPhotoEdit.app */,
+				B46A555A1FDA4A5C007A7503 /* ZGPhotoEditTests.xctest */,
+				B46A55651FDA4A5C007A7503 /* ZGPhotoEditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46A55441FDA4A5C007A7503 /* ZGPhotoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				B46A55451FDA4A5C007A7503 /* AppDelegate.h */,
+				B46A55461FDA4A5C007A7503 /* AppDelegate.m */,
+				B46A557E1FDA4CE9007A7503 /* ZGViewController.h */,
+				B46A557F1FDA4CE9007A7503 /* ZGViewController.m */,
+				B46A55811FDA4FB5007A7503 /* PhotoEdit */,
+				B46A554E1FDA4A5C007A7503 /* Assets.xcassets */,
+				B46A55501FDA4A5C007A7503 /* LaunchScreen.storyboard */,
+				B46A55531FDA4A5C007A7503 /* Info.plist */,
+				B46A55541FDA4A5C007A7503 /* main.m */,
+			);
+			path = ZGPhotoEdit;
+			sourceTree = "<group>";
+		};
+		B46A555D1FDA4A5C007A7503 /* ZGPhotoEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46A555E1FDA4A5C007A7503 /* ZGPhotoEditTests.m */,
+				B46A55601FDA4A5C007A7503 /* Info.plist */,
+			);
+			path = ZGPhotoEditTests;
+			sourceTree = "<group>";
+		};
+		B46A55681FDA4A5C007A7503 /* ZGPhotoEditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B46A55691FDA4A5C007A7503 /* ZGPhotoEditUITests.m */,
+				B46A556B1FDA4A5C007A7503 /* Info.plist */,
+			);
+			path = ZGPhotoEditUITests;
+			sourceTree = "<group>";
+		};
+		B46A55811FDA4FB5007A7503 /* PhotoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				B46A55831FDA4FB5007A7503 /* Controller */,
+				B46A55871FDA4FB5007A7503 /* View */,
+				B46A55861FDA4FB5007A7503 /* Model */,
+				B46A55821FDA4FB5007A7503 /* Other */,
+			);
+			path = PhotoEdit;
+			sourceTree = "<group>";
+		};
+		B46A55821FDA4FB5007A7503 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B46A55B01FDE6974007A7503 /* ZGPhotoEditHeader.h */,
+				B46A55891FDA4FFA007A7503 /* ZGPhotoEditingTool.h */,
+				B46A558A1FDA4FFA007A7503 /* ZGPhotoEditingTool.m */,
+				B46A55B11FDE6EC6007A7503 /* ZGPhotoEditNavBar.h */,
+				B46A55B21FDE6EC6007A7503 /* ZGPhotoEditNavBar.m */,
+				B47D42641FE8C901005E3743 /* ZGPhotoEditColorBar.h */,
+				B47D42651FE8C901005E3743 /* ZGPhotoEditColorBar.m */,
+				B47D42731FE901DB005E3743 /* ZGPhotoEditMosaicBar.h */,
+				B47D42741FE901DB005E3743 /* ZGPhotoEditMosaicBar.m */,
+				B47D42761FE90235005E3743 /* ZGPhotoEditFilterBar.h */,
+				B47D42771FE90235005E3743 /* ZGPhotoEditFilterBar.m */,
+				B47D42671FE8C931005E3743 /* Cells */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B46A55831FDA4FB5007A7503 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B46A558C1FDA5EAD007A7503 /* ZGPhotoEditingController.h */,
+				B46A558D1FDA5EAD007A7503 /* ZGPhotoEditingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B46A55861FDA4FB5007A7503 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B46A55A41FDA9EE7007A7503 /* ZGPhotoEditModel.h */,
+				B46A55A51FDA9EE7007A7503 /* ZGPhotoEditModel.m */,
+				B46A55B41FDE774E007A7503 /* ZGPhotoEditDrawStroke.h */,
+				B46A55B51FDE774E007A7503 /* ZGPhotoEditDrawStroke.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46A55871FDA4FB5007A7503 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B46A55951FDA7983007A7503 /* ZGPhotoEditCollectionView.h */,
+				B46A55961FDA7983007A7503 /* ZGPhotoEditCollectionView.m */,
+				B46A56671FE0DA50007A7503 /* EditImageView */,
+				B47D426F1FE8F1E1005E3743 /* MosaicView */,
+				B4BC2A591FE26CB800D421ED /* AddView */,
+				B46A566A1FE0DA50007A7503 /* DrawView */,
+				B46A56571FE0D44B007A7503 /* CropView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B46A56571FE0D44B007A7503 /* CropView */ = {
+			isa = PBXGroup;
+			children = (
+				B46A565B1FE0D44B007A7503 /* ZGPhotoEditCropView.h */,
+				B46A56611FE0D44B007A7503 /* ZGPhotoEditCropView.m */,
+				B46A56581FE0D44B007A7503 /* ZGCropView.h */,
+				B46A565D1FE0D44B007A7503 /* ZGCropView.m */,
+				B46A565E1FE0D44B007A7503 /* ZGCropCornerView.h */,
+				B46A565A1FE0D44B007A7503 /* ZGCropCornerView.m */,
+				B46A56591FE0D44B007A7503 /* ZGPhotoScrollView.h */,
+				B46A565F1FE0D44B007A7503 /* ZGPhotoScrollView.m */,
+				B46A565C1FE0D44B007A7503 /* ZGPhotoContentView.h */,
+				B46A56601FE0D44B007A7503 /* ZGPhotoContentView.m */,
+			);
+			path = CropView;
+			sourceTree = "<group>";
+		};
+		B46A56671FE0DA50007A7503 /* EditImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B46A56681FE0DA50007A7503 /* ZGPhotoEditImageView.h */,
+				B46A56691FE0DA50007A7503 /* ZGPhotoEditImageView.m */,
+			);
+			path = EditImageView;
+			sourceTree = "<group>";
+		};
+		B46A566A1FE0DA50007A7503 /* DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				B46A566B1FE0DA50007A7503 /* ZGPhotoEditDrawView.h */,
+				B46A566C1FE0DA50007A7503 /* ZGPhotoEditDrawView.m */,
+			);
+			path = DrawView;
+			sourceTree = "<group>";
+		};
+		B47D42671FE8C931005E3743 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B47D42681FE8C958005E3743 /* ZGPhotoEditColorCell.h */,
+				B47D42691FE8C958005E3743 /* ZGPhotoEditColorCell.m */,
+				B47D42791FE9027C005E3743 /* ZGPhotoEditFilterCell.h */,
+				B47D427A1FE9027C005E3743 /* ZGPhotoEditFilterCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B47D426F1FE8F1E1005E3743 /* MosaicView */ = {
+			isa = PBXGroup;
+			children = (
+				B47D42701FE8F1FD005E3743 /* ZGPhotoEditMosaicView.h */,
+				B47D42711FE8F1FD005E3743 /* ZGPhotoEditMosaicView.m */,
+			);
+			path = MosaicView;
+			sourceTree = "<group>";
+		};
+		B4BC2A591FE26CB800D421ED /* AddView */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC2A5D1FE2708F00D421ED /* ZGPhotoEditAddView.h */,
+				B4BC2A5E1FE2708F00D421ED /* ZGPhotoEditAddView.m */,
+				B47D426B1FE8CA21005E3743 /* ZGPhotoEditInputView.h */,
+				B47D426C1FE8CA21005E3743 /* ZGPhotoEditInputView.m */,
+			);
+			path = AddView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B46A55411FDA4A5C007A7503 /* ZGPhotoEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46A556E1FDA4A5C007A7503 /* Build configuration list for PBXNativeTarget "ZGPhotoEdit" */;
+			buildPhases = (
+				B46A553E1FDA4A5C007A7503 /* Sources */,
+				B46A553F1FDA4A5C007A7503 /* Frameworks */,
+				B46A55401FDA4A5C007A7503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGPhotoEdit;
+			productName = ZGPhotoEdit;
+			productReference = B46A55421FDA4A5C007A7503 /* ZGPhotoEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B46A55591FDA4A5C007A7503 /* ZGPhotoEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46A55711FDA4A5C007A7503 /* Build configuration list for PBXNativeTarget "ZGPhotoEditTests" */;
+			buildPhases = (
+				B46A55561FDA4A5C007A7503 /* Sources */,
+				B46A55571FDA4A5C007A7503 /* Frameworks */,
+				B46A55581FDA4A5C007A7503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46A555C1FDA4A5C007A7503 /* PBXTargetDependency */,
+			);
+			name = ZGPhotoEditTests;
+			productName = ZGPhotoEditTests;
+			productReference = B46A555A1FDA4A5C007A7503 /* ZGPhotoEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B46A55641FDA4A5C007A7503 /* ZGPhotoEditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46A55741FDA4A5C007A7503 /* Build configuration list for PBXNativeTarget "ZGPhotoEditUITests" */;
+			buildPhases = (
+				B46A55611FDA4A5C007A7503 /* Sources */,
+				B46A55621FDA4A5C007A7503 /* Frameworks */,
+				B46A55631FDA4A5C007A7503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46A55671FDA4A5C007A7503 /* PBXTargetDependency */,
+			);
+			name = ZGPhotoEditUITests;
+			productName = ZGPhotoEditUITests;
+			productReference = B46A55651FDA4A5C007A7503 /* ZGPhotoEditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46A553A1FDA4A5C007A7503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZGPhotoEdit;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = saina;
+				TargetAttributes = {
+					B46A55411FDA4A5C007A7503 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B46A55591FDA4A5C007A7503 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B46A55411FDA4A5C007A7503;
+					};
+					B46A55641FDA4A5C007A7503 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B46A55411FDA4A5C007A7503;
+					};
+				};
+			};
+			buildConfigurationList = B46A553D1FDA4A5C007A7503 /* Build configuration list for PBXProject "ZGPhotoEdit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46A55391FDA4A5C007A7503;
+			productRefGroup = B46A55431FDA4A5C007A7503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46A55411FDA4A5C007A7503 /* ZGPhotoEdit */,
+				B46A55591FDA4A5C007A7503 /* ZGPhotoEditTests */,
+				B46A55641FDA4A5C007A7503 /* ZGPhotoEditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46A55401FDA4A5C007A7503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46A55521FDA4A5C007A7503 /* LaunchScreen.storyboard in Resources */,
+				B46A554F1FDA4A5C007A7503 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46A55581FDA4A5C007A7503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46A55631FDA4A5C007A7503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46A553E1FDA4A5C007A7503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46A56661FE0D44B007A7503 /* ZGPhotoEditCropView.m in Sources */,
+				B47D427B1FE9027C005E3743 /* ZGPhotoEditFilterCell.m in Sources */,
+				B46A55A61FDA9EE7007A7503 /* ZGPhotoEditModel.m in Sources */,
+				B4BC2A5F1FE2708F00D421ED /* ZGPhotoEditAddView.m in Sources */,
+				B46A56651FE0D44B007A7503 /* ZGPhotoContentView.m in Sources */,
+				B46A55801FDA4CE9007A7503 /* ZGViewController.m in Sources */,
+				B46A55971FDA7983007A7503 /* ZGPhotoEditCollectionView.m in Sources */,
+				B46A55551FDA4A5C007A7503 /* main.m in Sources */,
+				B47D42721FE8F1FD005E3743 /* ZGPhotoEditMosaicView.m in Sources */,
+				B46A558E1FDA5EAD007A7503 /* ZGPhotoEditingController.m in Sources */,
+				B47D426A1FE8C958005E3743 /* ZGPhotoEditColorCell.m in Sources */,
+				B46A55471FDA4A5C007A7503 /* AppDelegate.m in Sources */,
+				B46A56631FE0D44B007A7503 /* ZGCropView.m in Sources */,
+				B46A55B61FDE774E007A7503 /* ZGPhotoEditDrawStroke.m in Sources */,
+				B47D42661FE8C901005E3743 /* ZGPhotoEditColorBar.m in Sources */,
+				B47D426D1FE8CA21005E3743 /* ZGPhotoEditInputView.m in Sources */,
+				B46A566E1FE0DA50007A7503 /* ZGPhotoEditDrawView.m in Sources */,
+				B46A55B31FDE6EC6007A7503 /* ZGPhotoEditNavBar.m in Sources */,
+				B46A56641FE0D44B007A7503 /* ZGPhotoScrollView.m in Sources */,
+				B47D42781FE90235005E3743 /* ZGPhotoEditFilterBar.m in Sources */,
+				B46A56621FE0D44B007A7503 /* ZGCropCornerView.m in Sources */,
+				B47D42751FE901DB005E3743 /* ZGPhotoEditMosaicBar.m in Sources */,
+				B46A566D1FE0DA50007A7503 /* ZGPhotoEditImageView.m in Sources */,
+				B46A558B1FDA4FFA007A7503 /* ZGPhotoEditingTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46A55561FDA4A5C007A7503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46A555F1FDA4A5C007A7503 /* ZGPhotoEditTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46A55611FDA4A5C007A7503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46A556A1FDA4A5C007A7503 /* ZGPhotoEditUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B46A555C1FDA4A5C007A7503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46A55411FDA4A5C007A7503 /* ZGPhotoEdit */;
+			targetProxy = B46A555B1FDA4A5C007A7503 /* PBXContainerItemProxy */;
+		};
+		B46A55671FDA4A5C007A7503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46A55411FDA4A5C007A7503 /* ZGPhotoEdit */;
+			targetProxy = B46A55661FDA4A5C007A7503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B46A55501FDA4A5C007A7503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46A55511FDA4A5C007A7503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B46A556C1FDA4A5C007A7503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B46A556D1FDA4A5C007A7503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B46A556F1FDA4A5C007A7503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95A7XNALGL;
+				INFOPLIST_FILE = ZGPhotoEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saina.ZGPhotoEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46A55701FDA4A5C007A7503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95A7XNALGL;
+				INFOPLIST_FILE = ZGPhotoEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saina.ZGPhotoEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B46A55721FDA4A5C007A7503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZGPhotoEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saina.ZGPhotoEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGPhotoEdit.app/ZGPhotoEdit";
+			};
+			name = Debug;
+		};
+		B46A55731FDA4A5C007A7503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZGPhotoEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saina.ZGPhotoEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGPhotoEdit.app/ZGPhotoEdit";
+			};
+			name = Release;
+		};
+		B46A55751FDA4A5C007A7503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZGPhotoEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saina.ZGPhotoEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZGPhotoEdit;
+			};
+			name = Debug;
+		};
+		B46A55761FDA4A5C007A7503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZGPhotoEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saina.ZGPhotoEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZGPhotoEdit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46A553D1FDA4A5C007A7503 /* Build configuration list for PBXProject "ZGPhotoEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46A556C1FDA4A5C007A7503 /* Debug */,
+				B46A556D1FDA4A5C007A7503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46A556E1FDA4A5C007A7503 /* Build configuration list for PBXNativeTarget "ZGPhotoEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46A556F1FDA4A5C007A7503 /* Debug */,
+				B46A55701FDA4A5C007A7503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46A55711FDA4A5C007A7503 /* Build configuration list for PBXNativeTarget "ZGPhotoEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46A55721FDA4A5C007A7503 /* Debug */,
+				B46A55731FDA4A5C007A7503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46A55741FDA4A5C007A7503 /* Build configuration list for PBXNativeTarget "ZGPhotoEditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46A55751FDA4A5C007A7503 /* Debug */,
+				B46A55761FDA4A5C007A7503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46A553A1FDA4A5C007A7503 /* Project object */;
+}
